@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Analyze",
+    "version" : "0.1",
+    "description": "Quick test from contextMenu",
+    "permissions" : [
+      "contextMenus", "storage"
+    ],
+    "background": {
+      "scripts": ["analyze.js"]
+    }
+
+}
